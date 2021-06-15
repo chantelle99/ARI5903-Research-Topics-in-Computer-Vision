@@ -1,0 +1,208 @@
+WARNING [05/23 13:02:13 d2.data.datasets.coco]: 
+Category ids in annotations are not in [1, #categories]! We'll apply a mapping for you.
+
+[05/23 13:02:13 d2.data.datasets.coco]: Loaded 1349 images in COCO format from /content/drive/MyDrive/tiny_voc_coco_train.json
+[05/23 13:02:13 d2.data.build]: Distribution of instances among all 80 categories:
+|   category    | #instances   |   category   | #instances   |   category    | #instances   |
+|:-------------:|:-------------|:------------:|:-------------|:-------------:|:-------------|
+|    person     | 797          |   bicycle    | 99           |      car      | 238          |
+|  motorcycle   | 91           |   airplane   | 103          |      bus      | 111          |
+|     train     | 87           |    truck     | 0            |     boat      | 99           |
+| traffic light | 0            | fire hydrant | 0            |   stop sign   | 0            |
+| parking meter | 0            |    bench     | 0            |     bird      | 130          |
+|      cat      | 124          |     dog      | 140          |     horse     | 90           |
+|     sheep     | 127          |     cow      | 128          |   elephant    | 0            |
+|     bear      | 0            |    zebra     | 0            |    giraffe    | 0            |
+|   backpack    | 0            |   umbrella   | 0            |    handbag    | 0            |
+|      tie      | 0            |   suitcase   | 0            |    frisbee    | 0            |
+|     skis      | 0            |  snowboard   | 0            |  sports ball  | 0            |
+|     kite      | 0            | baseball bat | 0            | baseball gl.. | 0            |
+|  skateboard   | 0            |  surfboard   | 0            | tennis racket | 0            |
+|    bottle     | 154          |  wine glass  | 0            |      cup      | 0            |
+|     fork      | 0            |    knife     | 0            |     spoon     | 0            |
+|     bowl      | 0            |    banana    | 0            |     apple     | 0            |
+|   sandwich    | 0            |    orange    | 0            |   broccoli    | 0            |
+|    carrot     | 0            |   hot dog    | 0            |     pizza     | 0            |
+|     donut     | 0            |     cake     | 0            |     chair     | 233          |
+|     couch     | 102          | potted plant | 162          |      bed      | 0            |
+| dining table  | 78           |    toilet    | 0            |      tv       | 94           |
+|    laptop     | 0            |    mouse     | 0            |    remote     | 0            |
+|   keyboard    | 0            |  cell phone  | 0            |   microwave   | 0            |
+|     oven      | 0            |   toaster    | 0            |     sink      | 0            |
+| refrigerator  | 0            |     book     | 0            |     clock     | 0            |
+|     vase      | 0            |   scissors   | 0            |  teddy bear   | 0            |
+|  hair drier   | 0            |  toothbrush  | 0            |               |              |
+|     total     | 3187         |              |              |               |              |
+[05/23 13:02:13 d2.data.dataset_mapper]: [DatasetMapper] Augmentations used in inference: [ResizeShortestEdge(short_edge_length=(800, 800), max_size=1333, sample_style='choice')]
+[05/23 13:02:13 d2.data.common]: Serializing 1349 elements to byte tensors and concatenating them all ...
+[05/23 13:02:13 d2.data.common]: Serialized dataset takes 5.04 MiB
+[05/23 13:02:13 d2.evaluation.evaluator]: Start inference on 1349 images
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:477: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+[05/23 13:02:16 d2.evaluation.evaluator]: Inference done 11/1349. 0.1846 s / img. ETA=0:04:13
+[05/23 13:02:21 d2.evaluation.evaluator]: Inference done 37/1349. 0.1852 s / img. ETA=0:04:11
+[05/23 13:02:26 d2.evaluation.evaluator]: Inference done 63/1349. 0.1854 s / img. ETA=0:04:07
+[05/23 13:02:31 d2.evaluation.evaluator]: Inference done 90/1349. 0.1851 s / img. ETA=0:04:01
+[05/23 13:02:36 d2.evaluation.evaluator]: Inference done 116/1349. 0.1861 s / img. ETA=0:03:56
+[05/23 13:02:41 d2.evaluation.evaluator]: Inference done 143/1349. 0.1858 s / img. ETA=0:03:51
+[05/23 13:02:46 d2.evaluation.evaluator]: Inference done 169/1349. 0.1863 s / img. ETA=0:03:46
+[05/23 13:02:51 d2.evaluation.evaluator]: Inference done 195/1349. 0.1865 s / img. ETA=0:03:42
+[05/23 13:02:56 d2.evaluation.evaluator]: Inference done 221/1349. 0.1868 s / img. ETA=0:03:37
+[05/23 13:03:01 d2.evaluation.evaluator]: Inference done 247/1349. 0.1869 s / img. ETA=0:03:32
+[05/23 13:03:06 d2.evaluation.evaluator]: Inference done 273/1349. 0.1872 s / img. ETA=0:03:28
+[05/23 13:03:12 d2.evaluation.evaluator]: Inference done 300/1349. 0.1871 s / img. ETA=0:03:22
+[05/23 13:03:17 d2.evaluation.evaluator]: Inference done 326/1349. 0.1872 s / img. ETA=0:03:17
+[05/23 13:03:22 d2.evaluation.evaluator]: Inference done 352/1349. 0.1876 s / img. ETA=0:03:13
+[05/23 13:03:27 d2.evaluation.evaluator]: Inference done 378/1349. 0.1876 s / img. ETA=0:03:08
+[05/23 13:03:32 d2.evaluation.evaluator]: Inference done 405/1349. 0.1876 s / img. ETA=0:03:02
+[05/23 13:03:37 d2.evaluation.evaluator]: Inference done 432/1349. 0.1874 s / img. ETA=0:02:57
+[05/23 13:03:42 d2.evaluation.evaluator]: Inference done 458/1349. 0.1874 s / img. ETA=0:02:52
+[05/23 13:03:47 d2.evaluation.evaluator]: Inference done 484/1349. 0.1875 s / img. ETA=0:02:47
+[05/23 13:03:52 d2.evaluation.evaluator]: Inference done 510/1349. 0.1878 s / img. ETA=0:02:42
+[05/23 13:03:57 d2.evaluation.evaluator]: Inference done 536/1349. 0.1879 s / img. ETA=0:02:37
+[05/23 13:04:03 d2.evaluation.evaluator]: Inference done 562/1349. 0.1881 s / img. ETA=0:02:32
+[05/23 13:04:08 d2.evaluation.evaluator]: Inference done 588/1349. 0.1882 s / img. ETA=0:02:27
+[05/23 13:04:13 d2.evaluation.evaluator]: Inference done 614/1349. 0.1882 s / img. ETA=0:02:22
+[05/23 13:04:18 d2.evaluation.evaluator]: Inference done 640/1349. 0.1883 s / img. ETA=0:02:17
+[05/23 13:04:23 d2.evaluation.evaluator]: Inference done 666/1349. 0.1885 s / img. ETA=0:02:12
+[05/23 13:04:28 d2.evaluation.evaluator]: Inference done 692/1349. 0.1887 s / img. ETA=0:02:07
+[05/23 13:04:36 d2.evaluation.evaluator]: Inference done 712/1349. 0.1887 s / img. ETA=0:02:07
+[05/23 13:04:41 d2.evaluation.evaluator]: Inference done 737/1349. 0.1889 s / img. ETA=0:02:02
+[05/23 13:04:46 d2.evaluation.evaluator]: Inference done 763/1349. 0.1891 s / img. ETA=0:01:57
+[05/23 13:04:51 d2.evaluation.evaluator]: Inference done 789/1349. 0.1892 s / img. ETA=0:01:52
+[05/23 13:04:57 d2.evaluation.evaluator]: Inference done 815/1349. 0.1893 s / img. ETA=0:01:46
+[05/23 13:05:02 d2.evaluation.evaluator]: Inference done 841/1349. 0.1894 s / img. ETA=0:01:41
+[05/23 13:05:07 d2.evaluation.evaluator]: Inference done 867/1349. 0.1895 s / img. ETA=0:01:36
+[05/23 13:05:12 d2.evaluation.evaluator]: Inference done 892/1349. 0.1897 s / img. ETA=0:01:31
+[05/23 13:05:17 d2.evaluation.evaluator]: Inference done 918/1349. 0.1898 s / img. ETA=0:01:26
+[05/23 13:05:22 d2.evaluation.evaluator]: Inference done 944/1349. 0.1898 s / img. ETA=0:01:20
+[05/23 13:05:27 d2.evaluation.evaluator]: Inference done 970/1349. 0.1899 s / img. ETA=0:01:15
+[05/23 13:05:32 d2.evaluation.evaluator]: Inference done 995/1349. 0.1901 s / img. ETA=0:01:10
+[05/23 13:05:38 d2.evaluation.evaluator]: Inference done 1020/1349. 0.1901 s / img. ETA=0:01:05
+[05/23 13:05:43 d2.evaluation.evaluator]: Inference done 1046/1349. 0.1902 s / img. ETA=0:01:00
+[05/23 13:05:48 d2.evaluation.evaluator]: Inference done 1071/1349. 0.1903 s / img. ETA=0:00:55
+[05/23 13:05:53 d2.evaluation.evaluator]: Inference done 1096/1349. 0.1905 s / img. ETA=0:00:50
+[05/23 13:05:58 d2.evaluation.evaluator]: Inference done 1121/1349. 0.1906 s / img. ETA=0:00:45
+[05/23 13:06:04 d2.evaluation.evaluator]: Inference done 1142/1349. 0.1906 s / img. ETA=0:00:41
+[05/23 13:06:09 d2.evaluation.evaluator]: Inference done 1167/1349. 0.1907 s / img. ETA=0:00:36
+[05/23 13:06:14 d2.evaluation.evaluator]: Inference done 1193/1349. 0.1908 s / img. ETA=0:00:31
+[05/23 13:06:19 d2.evaluation.evaluator]: Inference done 1218/1349. 0.1909 s / img. ETA=0:00:26
+[05/23 13:06:24 d2.evaluation.evaluator]: Inference done 1243/1349. 0.1910 s / img. ETA=0:00:21
+[05/23 13:06:29 d2.evaluation.evaluator]: Inference done 1268/1349. 0.1910 s / img. ETA=0:00:16
+[05/23 13:06:34 d2.evaluation.evaluator]: Inference done 1294/1349. 0.1911 s / img. ETA=0:00:11
+[05/23 13:06:39 d2.evaluation.evaluator]: Inference done 1320/1349. 0.1911 s / img. ETA=0:00:05
+[05/23 13:06:45 d2.evaluation.evaluator]: Inference done 1346/1349. 0.1912 s / img. ETA=0:00:00
+[05/23 13:06:45 d2.evaluation.evaluator]: Total inference time: 0:04:30.565448 (0.201314 s / img per device, on 1 devices)
+[05/23 13:06:45 d2.evaluation.evaluator]: Total inference pure compute time: 0:04:16 (0.191124 s / img per device, on 1 devices)
+[05/23 13:06:45 d2.evaluation.coco_evaluation]: Preparing results for COCO format ...
+[05/23 13:06:45 d2.evaluation.coco_evaluation]: Saving results to ./output/coco_instances_results.json
+[05/23 13:06:45 d2.evaluation.coco_evaluation]: Evaluating predictions with unofficial COCO API...
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+[05/23 13:06:45 d2.evaluation.fast_eval_api]: Evaluate annotation type *bbox*
+[05/23 13:06:47 d2.evaluation.fast_eval_api]: COCOeval_opt.evaluate() finished in 1.79 seconds.
+[05/23 13:06:47 d2.evaluation.fast_eval_api]: Accumulating evaluation results...
+[05/23 13:06:47 d2.evaluation.fast_eval_api]: COCOeval_opt.accumulate() finished in 0.26 seconds.
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.580
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.806
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.648
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.298
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.539
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.665
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.491
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.652
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.653
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.345
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.609
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.740
+[05/23 13:06:47 d2.evaluation.coco_evaluation]: Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 58.008 | 80.569 | 64.782 | 29.819 | 53.932 | 66.458 |
+[05/23 13:06:47 d2.evaluation.coco_evaluation]: Per-category bbox AP: 
+| category      | AP     | category     | AP     | category       | AP     |
+|:--------------|:-------|:-------------|:-------|:---------------|:-------|
+| person        | 61.925 | bicycle      | 55.538 | car            | 44.260 |
+| motorcycle    | 70.331 | airplane     | 69.174 | bus            | 71.255 |
+| train         | 67.487 | truck        | nan    | boat           | 53.566 |
+| traffic light | nan    | fire hydrant | nan    | stop sign      | nan    |
+| parking meter | nan    | bench        | nan    | bird           | 63.137 |
+| cat           | 70.241 | dog          | 68.269 | horse          | 63.530 |
+| sheep         | 58.624 | cow          | 61.510 | elephant       | nan    |
+| bear          | nan    | zebra        | nan    | giraffe        | nan    |
+| backpack      | nan    | umbrella     | nan    | handbag        | nan    |
+| tie           | nan    | suitcase     | nan    | frisbee        | nan    |
+| skis          | nan    | snowboard    | nan    | sports ball    | nan    |
+| kite          | nan    | baseball bat | nan    | baseball glove | nan    |
+| skateboard    | nan    | surfboard    | nan    | tennis racket  | nan    |
+| bottle        | 40.367 | wine glass   | nan    | cup            | nan    |
+| fork          | nan    | knife        | nan    | spoon          | nan    |
+| bowl          | nan    | banana       | nan    | apple          | nan    |
+| sandwich      | nan    | orange       | nan    | broccoli       | nan    |
+| carrot        | nan    | hot dog      | nan    | pizza          | nan    |
+| donut         | nan    | cake         | nan    | chair          | 39.395 |
+| couch         | 59.637 | potted plant | 37.258 | bed            | nan    |
+| dining table  | 46.632 | toilet       | nan    | tv             | 58.030 |
+| laptop        | nan    | mouse        | nan    | remote         | nan    |
+| keyboard      | nan    | cell phone   | nan    | microwave      | nan    |
+| oven          | nan    | toaster      | nan    | sink           | nan    |
+| refrigerator  | nan    | book         | nan    | clock          | nan    |
+| vase          | nan    | scissors     | nan    | teddy bear     | nan    |
+| hair drier    | nan    | toothbrush   | nan    |                |        |
+Loading and preparing results...
+DONE (t=0.10s)
+creating index...
+index created!
+[05/23 13:06:48 d2.evaluation.fast_eval_api]: Evaluate annotation type *segm*
+[05/23 13:06:50 d2.evaluation.fast_eval_api]: COCOeval_opt.evaluate() finished in 2.25 seconds.
+[05/23 13:06:50 d2.evaluation.fast_eval_api]: Accumulating evaluation results...
+[05/23 13:06:50 d2.evaluation.fast_eval_api]: COCOeval_opt.accumulate() finished in 0.26 seconds.
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.439
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.726
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.467
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.108
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.375
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.561
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.401
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.521
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.150
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.455
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.637
+[05/23 13:06:50 d2.evaluation.coco_evaluation]: Evaluation results for segm: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 43.925 | 72.621 | 46.733 | 10.825 | 37.541 | 56.066 |
+[05/23 13:06:50 d2.evaluation.coco_evaluation]: Per-category segm AP: 
+| category      | AP     | category     | AP     | category       | AP     |
+|:--------------|:-------|:-------------|:-------|:---------------|:-------|
+| person        | 43.749 | bicycle      | 17.400 | car            | 34.926 |
+| motorcycle    | 55.861 | airplane     | 45.529 | bus            | 70.545 |
+| train         | 64.820 | truck        | nan    | boat           | 31.301 |
+| traffic light | nan    | fire hydrant | nan    | stop sign      | nan    |
+| parking meter | nan    | bench        | nan    | bird           | 46.386 |
+| cat           | 65.777 | dog          | 54.274 | horse          | 42.775 |
+| sheep         | 42.116 | cow          | 46.610 | elephant       | nan    |
+| bear          | nan    | zebra        | nan    | giraffe        | nan    |
+| backpack      | nan    | umbrella     | nan    | handbag        | nan    |
+| tie           | nan    | suitcase     | nan    | frisbee        | nan    |
+| skis          | nan    | snowboard    | nan    | sports ball    | nan    |
+| kite          | nan    | baseball bat | nan    | baseball glove | nan    |
+| skateboard    | nan    | surfboard    | nan    | tennis racket  | nan    |
+| bottle        | 33.009 | wine glass   | nan    | cup            | nan    |
+| fork          | nan    | knife        | nan    | spoon          | nan    |
+| bowl          | nan    | banana       | nan    | apple          | nan    |
+| sandwich      | nan    | orange       | nan    | broccoli       | nan    |
+| carrot        | nan    | hot dog      | nan    | pizza          | nan    |
+| donut         | nan    | cake         | nan    | chair          | 17.880 |
+| couch         | 50.929 | potted plant | 15.863 | bed            | nan    |
+| dining table  | 37.308 | toilet       | nan    | tv             | 61.443 |
+| laptop        | nan    | mouse        | nan    | remote         | nan    |
+| keyboard      | nan    | cell phone   | nan    | microwave      | nan    |
+| oven          | nan    | toaster      | nan    | sink           | nan    |
+| refrigerator  | nan    | book         | nan    | clock          | nan    |
+| vase          | nan    | scissors     | nan    | teddy bear     | nan    |
+| hair drier    | nan    | toothbrush   | nan    |                |        |
+OrderedDict([('bbox', {'AP': 58.00825514942367, 'AP50': 80.56907529653337, 'AP75': 64.7818452463503, 'APs': 29.818823140842305, 'APm': 53.93227515496161, 'APl': 66.45844647214444, 'AP-person': 61.92495179587044, 'AP-bicycle': 55.538340792858186, 'AP-car': 44.25972966023629, 'AP-motorcycle': 70.33081183624546, 'AP-airplane': 69.17398965729328, 'AP-bus': 71.2548120984837, 'AP-train': 67.48653225867766, 'AP-truck': nan, 'AP-boat': 53.566126214195386, 'AP-traffic light': nan, 'AP-fire hydrant': nan, 'AP-stop sign': nan, 'AP-parking meter': nan, 'AP-bench': nan, 'AP-bird': 63.13744506099732, 'AP-cat': 70.24090764121534, 'AP-dog': 68.26902526267288, 'AP-horse': 63.529709834839274, 'AP-sheep': 58.62421985001571, 'AP-cow': 61.50960172749455, 'AP-elephant': nan, 'AP-bear': nan, 'AP-zebra': nan, 'AP-giraffe': nan, 'AP-backpack': nan, 'AP-umbrella': nan, 'AP-handbag': nan, 'AP-tie': nan, 'AP-suitcase': nan, 'AP-frisbee': nan, 'AP-skis': nan, 'AP-snowboard': nan, 'AP-sports ball': nan, 'AP-kite': nan, 'AP-baseball bat': nan, 'AP-baseball glove': nan, 'AP-skateboard': nan, 'AP-surfboard': nan, 'AP-tennis racket': nan, 'AP-bottle': 40.367152556629534, 'AP-wine glass': nan, 'AP-cup': nan, 'AP-fork': nan, 'AP-knife': nan, 'AP-spoon': nan, 'AP-bowl': nan, 'AP-banana': nan, 'AP-apple': nan, 'AP-sandwich': nan, 'AP-orange': nan, 'AP-broccoli': nan, 'AP-carrot': nan, 'AP-hot dog': nan, 'AP-pizza': nan, 'AP-donut': nan, 'AP-cake': nan, 'AP-chair': 39.3947958167988, 'AP-couch': 59.636947175921584, 'AP-potted plant': 37.257558605378456, 'AP-bed': nan, 'AP-dining table': 46.63234871268264, 'AP-toilet': nan, 'AP-tv': 58.030096429967045, 'AP-laptop': nan, 'AP-mouse': nan, 'AP-remote': nan, 'AP-keyboard': nan, 'AP-cell phone': nan, 'AP-microwave': nan, 'AP-oven': nan, 'AP-toaster': nan, 'AP-sink': nan, 'AP-refrigerator': nan, 'AP-book': nan, 'AP-clock': nan, 'AP-vase': nan, 'AP-scissors': nan, 'AP-teddy bear': nan, 'AP-hair drier': nan, 'AP-toothbrush': nan}), ('segm', {'AP': 43.92505086460435, 'AP50': 72.62117348877238, 'AP75': 46.7332343818133, 'APs': 10.82458435417272, 'APm': 37.54069185653975, 'APl': 56.06584384622288, 'AP-person': 43.74915219221193, 'AP-bicycle': 17.399948991970536, 'AP-car': 34.92639749038524, 'AP-motorcycle': 55.86068506886986, 'AP-airplane': 45.52868007789957, 'AP-bus': 70.54455887056226, 'AP-train': 64.82028817438523, 'AP-truck': nan, 'AP-boat': 31.30110078548422, 'AP-traffic light': nan, 'AP-fire hydrant': nan, 'AP-stop sign': nan, 'AP-parking meter': nan, 'AP-bench': nan, 'AP-bird': 46.385548120658, 'AP-cat': 65.77702116177532, 'AP-dog': 54.27412444531261, 'AP-horse': 42.77539567869827, 'AP-sheep': 42.11619593712344, 'AP-cow': 46.61022415699042, 'AP-elephant': nan, 'AP-bear': nan, 'AP-zebra': nan, 'AP-giraffe': nan, 'AP-backpack': nan, 'AP-umbrella': nan, 'AP-handbag': nan, 'AP-tie': nan, 'AP-suitcase': nan, 'AP-frisbee': nan, 'AP-skis': nan, 'AP-snowboard': nan, 'AP-sports ball': nan, 'AP-kite': nan, 'AP-baseball bat': nan, 'AP-baseball glove': nan, 'AP-skateboard': nan, 'AP-surfboard': nan, 'AP-tennis racket': nan, 'AP-bottle': 33.00852941554242, 'AP-wine glass': nan, 'AP-cup': nan, 'AP-fork': nan, 'AP-knife': nan, 'AP-spoon': nan, 'AP-bowl': nan, 'AP-banana': nan, 'AP-apple': nan, 'AP-sandwich': nan, 'AP-orange': nan, 'AP-broccoli': nan, 'AP-carrot': nan, 'AP-hot dog': nan, 'AP-pizza': nan, 'AP-donut': nan, 'AP-cake': nan, 'AP-chair': 17.880129455743216, 'AP-couch': 50.928665812000105, 'AP-potted plant': 15.863391738425204, 'AP-bed': nan, 'AP-dining table': 37.30821340069458, 'AP-toilet': nan, 'AP-tv': 61.44276631735467, 'AP-laptop': nan, 'AP-mouse': nan, 'AP-remote': nan, 'AP-keyboard': nan, 'AP-cell phone': nan, 'AP-microwave': nan, 'AP-oven': nan, 'AP-toaster': nan, 'AP-sink': nan, 'AP-refrigerator': nan, 'AP-book': nan, 'AP-clock': nan, 'AP-vase': nan, 'AP-scissors': nan, 'AP-teddy bear': nan, 'AP-hair drier': nan, 'AP-toothbrush': nan})])

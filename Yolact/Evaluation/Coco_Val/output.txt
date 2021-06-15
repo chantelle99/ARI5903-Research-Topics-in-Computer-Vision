@@ -1,0 +1,23 @@
+Config not specified. Parsed yolact_base_config from the file name.
+
+loading annotations into memory...
+Done (t=0.56s)
+creating index...
+index created!
+/usr/local/lib/python3.7/dist-packages/torch/jit/_recursive.py:202: UserWarning: 'lat_layers' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+/usr/local/lib/python3.7/dist-packages/torch/jit/_recursive.py:202: UserWarning: 'pred_layers' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+/usr/local/lib/python3.7/dist-packages/torch/jit/_recursive.py:202: UserWarning: 'downsample_layers' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Loading model... Done.
+
+Processing Images  ██████████████████████████████   4952 /   4952 (100.00%)     2.92 fps        
+Saving data...
+Calculating mAP...
+
+       |  all  |  .50  |  .55  |  .60  |  .65  |  .70  |  .75  |  .80  |  .85  |  .90  |  .95  |
+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
+   box | 26.47 | 39.60 | 38.71 | 37.23 | 35.52 | 33.30 | 29.84 | 24.77 | 17.13 |  7.75 |  0.87 |
+  mask | 24.89 | 37.60 | 36.45 | 34.93 | 32.87 | 30.26 | 27.15 | 22.62 | 16.69 |  8.75 |  1.56 |
+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
